@@ -16,7 +16,7 @@ J'ai utilisé l'api d'[openweathermap](https://openweathermap.org/) pour les don
 Ce que j'ai le plus apprécié dans ce projet c'est l'affichage dynamique en fonction du temps et l'animation de la pluie et de la neige. Pour cette dernière je ne suis pas sûre que ce soit la meilleur manière de les faires, je pense que les canvas seront plus adapté.
 Le paysage est un svg et a été fait par moi avec figma. Les nuages et la brume sont libre de droit.
 
-Je te laisse le découvrire [ici]()
+Je te laisse le découvrire [ici](https://check-weather-rho.vercel.app/)
 
 ## En
 
@@ -26,7 +26,7 @@ The API used for fetching weather data is [openweathermap](https://openweatherma
 
 Improvement clue : - Use chart.js for min/max temperature
 
-To view the site, click [here]()
+To view the site, click [here](https://check-weather-rho.vercel.app/)
 
 ### Technologies:
 

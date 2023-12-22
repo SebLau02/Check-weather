@@ -32,7 +32,7 @@ function App() {
   const fetchApi = (event) => {
     event?.preventDefault();
 
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=fr&APPID=833f1affa492d03b5756a933c5b64e57`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=fr&APPID=833f1affa492d03b5756a933c5b64e57`;
 
     fetch(url)
       .then((res) => res.json())
