@@ -1,0 +1,16 @@
+.mist-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+}
+.mist-container img {
+  height: 100%;
+  width: 100%;
+
+  transform: rotate(180deg);
+}

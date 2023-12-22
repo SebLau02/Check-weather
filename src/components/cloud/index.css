@@ -1,0 +1,49 @@
+#cloud-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  height: 100vh;
+  width: 100%;
+
+  overflow: hidden;
+}
+.none {
+  display: none;
+}
+
+.dark-cloud.active {
+  display: block;
+}
+
+.medium-cloud.active {
+  display: block;
+  opacity: 0.6;
+}
+
+.light-coloud.active {
+  display: block;
+  opacity: 0.3;
+}
+
+#cloud-container > img {
+  position: absolute;
+  z-index: 3;
+}
+
+#cloud-container :nth-child(1) {
+  width: 50%;
+  top: -4%;
+  left: -8%;
+}
+#cloud-container :nth-child(2) {
+  width: 110%;
+  top: -42%;
+  left: 9%;
+}
+#cloud-container :nth-child(3) {
+  width: 33%;
+  top: 9%;
+  left: 47%;
+}

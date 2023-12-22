@@ -1,0 +1,119 @@
+.main-content {
+  height: 90vh;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+/* --------------------------------- */
+
+.boussole {
+  position: relative;
+
+  width: 7vw;
+  min-width: 50px;
+  min-height: 50px;
+  height: 7vw;
+
+  border-radius: 50%;
+
+  border: 3px solid #333;
+
+  background: #e2e1be;
+}
+.boussole > * {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+
+  transition: transform 1s ease;
+}
+
+.fleche-nord {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+
+  background: linear-gradient(0deg, #b7b7b7 50%, rgba(224, 0, 0, 1) 50%);
+  clip-path: polygon(50% 0, 50% 0, 60% 50%, 50% 100%, 50% 100%, 40% 50%);
+}
+.fleche-wind {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+
+  background: #565656;
+
+  clip-path: polygon(50% 20%, 50% 20%, 55% 50%, 50% 100%, 50% 100%, 45% 50%);
+}
+.epingle {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background: #a00909;
+}
+
+/* --------------------------------- */
+
+.data-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 0.5fr;
+  align-self: end;
+  justify-self: end;
+
+  width: fit-content;
+
+  backdrop-filter: blur(7px);
+
+  border: 2px solid #333;
+  border-radius: 1vw;
+
+  padding: 2vw;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.data-card ul > li {
+  line-height: 2;
+}
+
+.temp-condition-wind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+
+  padding: 1.5vw 0;
+}
+.temp-condition-wind > ul {
+  padding: 2vw;
+}
+.temp-condition-wind > :nth-child(2) {
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
+}
+.date > * {
+  line-height: 2;
+}
+/* --------------------------------- */
+
+@keyframes falling {
+  20% {
+    opacity: 1;
+  }
+  to {
+    bottom: 0%;
+    opacity: 1;
+  }
+}

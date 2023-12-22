@@ -1,0 +1,29 @@
+.search-bar {
+	position: relative;
+	z-index: 4;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 10vh;
+	text-align: center;
+}
+.search-bar form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#search {
+	width: 50%;
+	min-width: 250px;
+
+	padding: 1vh;
+
+	border-radius: 1rem;
+}
+.search-bar button {
+	border: none;
+	background: none;
+	font-size: clamp(2rem, 2vw, 3rem);
+}
