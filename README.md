@@ -28,11 +28,32 @@ Improvement clue : - Use chart.js for min/max temperature
 
 To view the site, click [here](https://check-weather-rho.vercel.app/)
 
-### Technologies:
-
-React.js
+### Technologies: React.js
 
 ### Images:
+
 <img src="src/assets/images/illustration1.png" alt="exemple 1" width="800">
 <img src="src/assets/images/illustration2.png" alt="exemple 2" width="800">
 <img src="src/assets/images/illustration3.png" alt="exemple 3" width="800">
+
+#
+
+## Fr
+
+### Description
+
+### Détails
+
+Vous pouvez le visiter [ici]()
+
+## En
+
+Visit it [here]()
+
+### Technologies:
+
+### Images
+
+<img src="" alt="" width="800">
+<img src="" alt="" width="800">
+<img src="" alt="" width="800">
