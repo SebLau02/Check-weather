@@ -32,6 +32,6 @@ To view the site, click [here](https://check-weather-rho.vercel.app/)
 
 ### Images:
 
-<img src="src/assets/illustrations/illustration3.png" alt="small screen" width="400">
 <img src="src/assets/illustrations/illustration2.png" alt="laptop" width="800">
+<img src="src/assets/illustrations/illustration3.png" alt="small screen" width="400">
 <img src="src/assets/illustrations/illustration1.png" alt="lighthouse" width="800">
